@@ -1,4 +1,4 @@
-## Htaccess important headers
+## Htaccess important headers (https://securityheaders.com/ - Security header scanner)
 
 ```
 <IfModule mod_headers.c>
@@ -10,3 +10,6 @@
     Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
     Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
 </IfModule>```
+
+
+
